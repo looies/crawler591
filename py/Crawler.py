@@ -17,7 +17,7 @@ class Crawler:
         self.session = requests.session()
         self._header = header
         self.random_sleep_min = 2
-        self.random_sleep_max = 12
+        self.random_sleep_max = 6
 
     @property
     def header(self):
